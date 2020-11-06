@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Humidity</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand text-left" href="../index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./temp.html">vs. Max Temperature</a>
+                        <a class="dropdown-item" href="./humidity.html">vs. Humidity</a>
+                        <a class="dropdown-item" href="./cloudiness.html">vs. Cloudiness</a>
+                        <a class="dropdown-item" href="./wind.html">vs. Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../comparison.html">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Latitude vs. Humidity</h1>
+                    </div>
+                </div>
+                <div class="row mt-5 no-gutters">
+                    <div class="col-12">
+                        <img src="../Resources/latitude_vs_humidity.png" alt="vs. Humidity" class="float-left"></img>
+                        <p>Based on the current available data there does not appear to be a relationship between
+                            latitude and humidity. Cities between -40 and 0 latitude as well as cities between 20 and 60
+                            appear to have lower humidity levels, so there may be a relationship
+                            to discover, but this would require more investigation. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h2>Visualizations</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <a href="./temp.html"><img src="../Resources/latitude_vs_max_temp.png"
+                                alt="Latitude vs. Max Temp" class="img-thumbnail" /></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="./cloudiness.html"><img src="../Resources/latitude_vs_cloudiness.png"
+                                alt="Latitude vs. Cloudiness" class="img-thumbnail" /></a>
+                    </div>
+                    <div class="col-6 mt-2">
+                        <a href="./humidity.html"><img src="../Resources/latitude_vs_humidity.png"
+                                alt="Latitude vs. Humidity" class="img-thumbnail border border-primary" /></a>
+                    </div>
+                    <div class="col-6 mt-2">
+                        <a href="./wind.html"><img src="../Resources/latitude_vs_wind_speed.png"
+                                alt="Latitude vs. Wind Speed" class="img-thumbnail" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
